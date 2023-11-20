@@ -1,5 +1,5 @@
 import React from 'react'
-import pics from "./assets/person.jpg"
+import pics from "./assets/stu.png"
 const App = () => {
   return (
  <>
@@ -13,13 +13,16 @@ const App = () => {
 
 </div>
 
-<div className='w-[80%] h-[450px] bg-white flex justify-center items-center mt-[4%] shadow-sm rounded border  flex-col'>
+<div className='w-[70%] h-[450px] bg-white flex justify-center items-center mt-[4%] shadow-sm rounded border  flex-col'>
 
 <div className='w-full h-[200px] flex justify-between items-center '>
-  <div className='w-[15%] h-[150px] flex rounded-[50%] bg-[silver]  '>  
-  <img src={pics} className='w-full h-full rounded-full '/>
+  <div className='w-[17%] h-[170px] flex rounded-[50%] bg-[silver] ml-4 '>  
+  <img src={pics} className='w-full h-full rounded-full object-cover'/>
   </div>
-  <div className='absolute ml-[17%] mt-[5%] font-bold '>Peter Oti</div>
+  <div className='absolute ml-[17%] mt-[5%] font-bold '>Peter Oti
+  <div className='px-2 py-2 bg-[#41cc41] flex rounded-sm text-[10px] text-white cursor-pointer mt-5 '>Upload Image</div>
+  </div>
+  
   
   <div className='px-2 py-1 rounded-sm bg-[#41cc41] mt-2 text-sm text-white cursor-pointer justify-center items-center   text-center mr-5 hover:text-black hover:scale-125 transition-all '>
     View Bottles</div>
